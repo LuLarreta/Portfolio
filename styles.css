@@ -1,0 +1,198 @@
+body {
+  background-color: #0b0e17;
+}
+
+h1 {
+  color: #ffffff;
+}
+.principal {
+  height: 90vh;
+}
+
+section {
+    padding: 10vh 0;
+}
+
+.proyectos {
+    padding: 5vh 0;
+}
+p {
+    color: #ffffff;
+}
+
+.home {
+  height: 50vh;
+  width: 50vw;
+  margin: 10vh auto;
+  background-color: #0b0e17;
+  border: solid transparent; /* Establecer un borde transparente */
+  border-width: 30px 6px 6px 6px;
+  border-image: linear-gradient(
+    94deg,
+    #69e0cd,
+    #84a0fc,
+    #e4a9ea,
+    #eddec1
+  ); /* Definir el degradado */
+  border-image-slice: 1; /* Ajustar el tamaño del degradado */
+}
+
+.barraItems {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+}
+
+.barraItems:hover {
+    background-color: transparent;
+    font-size: large;
+}
+.barraItems:active {
+    background-color: transparent;
+    font-size: large;
+}
+.list-group-item.active {
+    background-color: transparent;
+    border-color: #dee2e6;
+}
+
+.list-group-item+.list-group-item.active {
+    margin-top: 0;
+    border-top-width: 0;
+}
+img {
+    max-height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.dorado {
+    color: #efb810;
+  }
+
+  .blanco { 
+    color: #ffffff;
+  }
+
+  .contacto {
+    display: inline;
+    
+  }
+
+
+.texto-borde-degradado {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 100px;
+  text-align: center;
+  background: linear-gradient(94deg, #69e0cd, #84a0fc, #e4a9ea, #eddec1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin: 0;
+}
+
+.intro {
+  font-family: "Bad Script", cursive;
+  text-align: center;
+  background: linear-gradient(94deg, #69e0cd, #84a0fc, #e4a9ea, #eddec1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin: 0;
+  line-height: normal;
+  padding-left: 40px;
+}
+
+.degrade-icon,
+.degrade-text {
+    color: #ffffff;
+}
+
+h3 {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+.barraItems:hover .degrade-icon,
+.barraItems:hover .degrade-text  {
+    background: linear-gradient(134deg, #69e0cd, #84a0fc, #e4a9ea, #eddec1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+    
+}
+.active .degrade-icon,
+.active .degrade-text {
+    background: linear-gradient(134deg, #69e0cd, #84a0fc, #e4a9ea, #eddec1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+   
+}
+
+
+
+.intro2 {
+  font-family: "Bad Script", cursive;
+  line-height: normal;
+  text-align: center;
+  color: #ffffff;
+  padding-right: 60px;
+}
+
+/* Estilos para le nav */
+.barra {
+  position: fixed;
+  height: 100%;
+  display: flex;
+    align-items: center;
+}
+
+/* Estilos para las pelotas */
+.floating-balls {
+  position: relative;
+  overflow: hidden;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  
+}
+.small {
+  width: 12px; /* Tamaño pequeño */
+  height: 12px;
+  background-color: #eddec1;
+  opacity: 0.5;
+}
+
+.medium {
+  width: 20px; /* Tamaño mediano */
+  height: 20px;
+  background-color: #e4a9ea;
+  opacity: 0.5;
+}
+
+.large {
+  width: 50px; /* Tamaño grande */
+  height: 50px;
+  background-color: #84a0fc;
+  opacity: 0.5;
+}
+
+.x-large {
+  width: 80px; /* Tamaño extra grande */
+  height: 80px;
+  background-color: #69e0cd;
+  opacity: 0.5;
+}
+
