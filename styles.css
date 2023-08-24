@@ -196,3 +196,13 @@ h3 {
   opacity: 0.5;
 }
 
+
+@media screen and (max-width: 880px) {
+
+  .home {
+    width: 90vw;
+  }
+  
+}
+
+
