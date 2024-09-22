@@ -1,445 +1,180 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Portfolio Desarrolladora Web" />
-    <meta name="author" content="Lucia Larreta" />
-    <title>Portfolio Desarrolladora Web</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
 
-    <script src="js.js" defer></script>
-  </head>
-  <body>
-    <div class="floating-balls">
-      <!-- Barra lateral -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio Desarrolladora Web" />
+  <meta name="author" content="Lucia Larreta" />
+  <title>Portfolio Desarrolladora Web</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="icon" href="src/favicon.png" type="image/png">
 
-      <nav>
-        <div class="border-right barra">
-          <div class="list-group list-group-flush">
-            <a
-              href="#home"
-              class="list-group-item list-group-item-action barraItems"
-            >
-              <div  class="nav">
-                <i class="fas fa-home fa-2x degrade-icon"></i>
-                <span class="menu-label degrade-text">Inicio </span>
-              </div>
-            </a>
-            <a
-              href="#about"
-              class="list-group-item list-group-item-action barraItems"
-            >
-              <div  class="nav">
-                <i class="fas fa-user fa-2x degrade-icon"></i>
-                <span class="menu-label degrade-text">About Me</span>
-              </div>
-            </a>
-            <a
-              href="#skill"
-              class="list-group-item list-group-item-action barraItems"
-            >
-              <div  class="nav">
-                <i class="fas fa-cogs fa-2x degrade-icon"></i>
-                <span class="menu-label degrade-text">Skills</span>
-              </div>
-            </a>
-            <a
-              href="#proyectos"
-              class="list-group-item list-group-item-action barraItems"
-            >
-              <div  class="nav">
-                <i class="fas fa-laptop-code fa-2x degrade-icon"></i>
-                <span class="menu-label degrade-text">Proyectos</span>
-              </div>
-            </a>
-            <a
-              href="#contacto"
-              class="list-group-item list-group-item-action barraItems borde"
-            >
-              <div class="nav">
-                <i class="fas fa-envelope fa-2x degrade-icon"></i>
-                <span class="menu-label degrade-text">Contacto</span>
-              </div>
-            </a>
+  <script src="js.js" defer></script>
+</head>
+
+<body>
+  <div class="floating-balls">
+    <!-- Barra lateral -->
+    <nav>
+      <a href="#home" class="navItems active">
+        <i class="fas fa-home"></i>
+        <span>Inicio </span>
+      </a>
+      <a href="#about" class="navItems">
+        <i class="fas fa-user"></i>
+        <span>About Me</span>
+      </a>
+      <a href="#skill" class="navItems">
+        <i class="fas fa-cogs"></i>
+        <span>Skills</span>
+      </a>
+      <a href="#proyectos" class="navItems">
+        <i class="fas fa-laptop-code"></i>
+        <span>Proyectos</span>
+      </a>
+      <a href="#contacto" class="navItems borde">
+        <i class="fas fa-envelope"></i>
+        <span>Contacto</span>
+      </a>
+    </nav>
+    <main>
+      <h1>Portfolio Lucia Muñoz Larreta</h1>
+      <section id="home" class="principal">
+        <div class="container">
+          <div class="container-fluid p-0">
+            <div class="home">
+              <p>Hola!</p>
+              <p>Soy Lucia Larreta</p>
+              <p>Desarrolladora Web</p>
+            </div>
           </div>
         </div>
-      </nav>
-      <div class="container ">
-        <div class="container-fluid p-4">
-          <section id="home" class="principal">
-            <div class="home">
-              <div class="container p-0">
-                <div class="container-fluid p-0">
-                  <h1 class="texto-borde-degradado">Hola!</h1>
-                  <h2 class="intro2 fs-1 fw-bold">Soy Lucia Larreta</h2>
-                  <h2 class="intro fs-1 fw-bold">Desarrolladora Web</h2>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section id="about">
-            <h2 class="texto-borde-degradado">About Me</h2>
-            <p class="about">
-              Soy Lucia Larreta, tengo 23 años, y soy estudiante de Diseño y Programación Web en
-              el Instituto Da Vinci de Buenos Aires, Argentina. Combino mi pasión por el diseño y la tecnología en el mundo del
-              desarrollo Full Stack. Mi enfoque abarca desde la creación de
-              interfaces atractivas hasta la implementación técnica, siempre
-              buscando soluciones creativas para los desafíos. Estoy emocionada
-              por las oportunidades que me permitan aplicar mis conocimientos y
-              contribuir a proyectos significativos en el mundo digital.
+      </section>
+      <section id="about">
+        <div class="container">
+          <div class="container-fluid">
+            <h2>About Me</h2>
+            <p>Mi nombre es Lucia Larreta. Soy una desarrolladora web full stack con una sólida formación académica en
+              Diseño y Desarrollo Web,
+              adquirida en el Instituto Da Vinci de Buenos Aires. Actualmente, estoy cursando la carrera de Ingeniería
+              en
+              Sistemas en la UDEMM. Me destaco por mi atención al detalle y mi pasión por el diseño, lo que me impulsa a
+              desafiar constantemente mis conocimientos y a mejorar mis habilidades técnicas. Mi
+              objetivo es seguir creciendo profesionalmente y contribuir con soluciones innovadoras en el ámbito del
+              desarrollo web.
             </p>
             <p>
-              Actualmente me encuentro realizando una pasantia en Makisan Tech.
-              Cumpliendo roles de Desarrolladora Web Frontend.
+              Mi camino en el mundo IT comenzó hace 2 años, con una pasantía en Makisan Tech, donde desempeñé tareas
+              como Desarrolladora Web Frontend. Actualmente, soy Desarrolladora PHP en Fidelity Tools, donde me encargo
+              de la creación de páginas, mantenimiento de código, y otras tareas relacionadas con el desarrollo PHP.
+              Además, realizo trabajos freelance, desarrollando aplicaciones, trabajando en frontend y backend con PHP.
             </p>
-          </section>
-          <section id="skill">
-            <h2 class="texto-borde-degradado">Skills</h2>
+          </div>
+        </div>
+      </section>
+      <section id="skill">
+        <div class="container">
+          <div class="container-fluid">
+            <h2>Skills</h2>
             <div class="container">
               <div class="container-fluid">
-                <div class="row align-items-center justify-content-center">
-                  <div class="col-6 col-md-4 py-2">
-                    <p>Html</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4 py-2">
-                    <p>CSS</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4 py-2">
-                    <p>Bootstrap</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4 py-2">
-                    <p>JS</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star blanco"></i>
-                      <i class="fas fa-star blanco"></i>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4 py-2">
-                    <p>PHP</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star blanco"></i>
-                      <i class="fas fa-star blanco"></i>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4 py-2">
-                    <p>MySQL</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star blanco"></i>
-                      <i class="fas fa-star blanco"></i>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4 py-2">
-                    <p>Vue.js - Vue.cli + Vuetify</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star blanco"></i>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4 py-2">
-                    <p>Angular</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star blanco"></i>
-                      <i class="fas fa-star blanco"></i>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4 py-2">
-                    <p>Wordpress + Elementor + WooCommerce</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star blanco"></i>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4 py-2">
-                    <p>Ilustrator</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4 py-2">
-                    <p>Photoshop</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4 py-2">
-                    <p>Figma</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4 py-2">
-                    <p>Notion</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4 py-2">
-                    <p>UX</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star blanco"></i>
-                      <i class="fas fa-star blanco"></i>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4 py-2">
-                    <p>Metodologías Ágiles</p>
-                    <div>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star dorado"></i>
-                      <i class="fas fa-star blanco"></i>
-                    </div>
-                  </div>
+                <div id="myskills" class="row align-items-center justify-content-center">
                 </div>
               </div>
             </div>
-          </section>
-          <section id="proyectos" class="pb-0">
-            <h2 class="texto-borde-degradado">Proyectos</h2>
+          </div>
+        </div>
+      </section>
+      <section id="proyectos">
+        <div class="container">
+          <div class="container-fluid">
+            <h2>Proyectos</h2>
             <div class="proyectos">
-              <h3 class="p-4">E-commerce de Bombones</h3>
-              <div class="container">
-                <div class="container-fluid">
-                  <div class="row align-items-center">
-                    <div class="col-12 col-md-6">
-                      <a
-                        href="https://dulcemagnoliabombones.000webhostapp.com/"
-                        target="_blank"
-                      >
-                        <img
-                          src="/src/dulcemagnolia.png"
-                          alt="Vista de Dulce Magnolia"
-                          class="img-fluid"
-                      /></a>
-                    </div>
-                    <div class="col-12 col-md-6">
-                      <p class="p-2">
-                        Dulce Magnolia es un e-commerce realizado en PHP y
-                        MySQL. Este proyecto posee 4 niveles de usuarios.
-                        Invitado, el cual solo puede ver la página. Cliente el
-                        cual puede ejecutar compras. Administrador y SuperAdmin,
-                        los cuales tienen acceso al panel administrador, pueden
-                        ejecutar acciones CRUD sobre todos los productos. Todo
-                        el sitio interactúa con la base de datos y trae la
-                        información en tiempo real.
-                      </p>
-                      <p>
-                        Presionando la vista previa podés visitar mi proyecto en
-                        línea.
-                      </p>
-                    </div>
-                  </div>
+              <h3>Plantopia</h3>
+              <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                  <a href="https://plantopia-sigma.vercel.app/#/" target="_blank">
+                    <img src="src/plantopia.jpg" alt="Vista de Plantopia" class="img-fluid" /></a>
                 </div>
-              </div>
-            </div>
-            <div class="proyectos">
-              <h3 class="p-4">Servicio Meteorológico</h3>
-              <div class="container">
-                <div class="container-fluid">
-                  <div class="row align-items-center flex-row-reverse">
-                    <div class="col-12 col-md-6">
-                      <a
-                        href="https://vercel.com/lularreta/servicio-meteorologico"
-                        target="_blank"
-                      >
-                        <img
-                          src="/src/clima.png"
-                          alt="Vista de App del Clima"
-                          class="img-fluid"
-                      /></a>
-                    </div>
-                    <div class="col-12 col-md-6">
-                      <p class="p-2">
-                        Utilizando la API de openweather, desarrolle esta
-                        aplicación. Te permite buscar por ciudad o país, y te
-                        muestra el clima de ese lugar, trae también temperatura
-                        máxima, mínima, humedad, sensación térmica y viento.
-                        También muestra el mapa del sitio buscado y el estado
-                        actual de las nubes en ese momento. Empleando el DOM
-                        también muestra la última búsqueda realizada.
-                      </p>
-                      <p>
-                        Presionando la vista previa podés visitar mi Vercel.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="proyectos">
-              <h3 class="p-4">Buscador de peliculas</h3>
-              <div class="container">
-                <div class="container-fluid">
-                  <div class="row align-items-center">
-                    <div class="col-12 col-md-6">
-                      <a
-                        href="https://vercel.com/lularreta/buscador-peliculas"
-                        target="_blank"
-                      >
-                        <img
-                          src="/src/buscador.png"
-                          alt="Vista de App buscador de peliculas"
-                          class="img-fluid"
-                      /></a>
-                    </div>
-                    <div class="col-12 col-md-6">
-                      <p class="p-2">
-                        LuFlix es una PWA alimentada por la API de omdbapi, en
-                        ella podés buscar películas y te aparece toda la
-                        información, además podés agregarla a favoritos y ver un
-                        tráiler. Usa Local Storage para guardar las películas en
-                        favoritos. También tiene un juego hecho en JS el cual
-                        aparece cuando se encuentra sin conexión.
-                      </p>
-                      <p>
-                        Presionando la vista previa podés visitar mi Vercel.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-              <div class="proyectos">
-                <h3 class="p-4">Planner Semanal y Mensual</h3>
-                <div class="container">
-                  <div class="container-fluid">
-                    <div class="row align-items-center flex-row-reverse">
-                      <div class="col-12 col-md-6 ">
-                        <a
-                          href="https://vercel.com/lularreta/planner-organizador"
-                          target="_blank"
-                        >
-                          <img
-                            src="/src/planner.png"
-                            alt="Vista de App de Planner"
-                            class="img-fluid"
-                        /></a>
-                      </div>
-                      <div class="col-12 col-md-6">
-                        <p>
-                          Mi Mejor Planner es un sitio creado con Vue.cli +
-                          Vuetify. Posee acciones CRUD las cuales impactan en el
-                          Local Storage, las cuales se guardan en la sesión. El
-                          usuario puede elegir iconos, seleccionar día de la
-                          semana o fecha y mes según corresponda y escribir la
-                          descripción de su tarea, recordatorio o pendiente.
-                          Luego tiene una vista donde se muestran las tareas
-                          semanales y una en donde se muestran las tareas
-                          anuales. Ambas se peden tachar y dar como completadas.
-                        </p>
-                        <p>
-                          Presionando la vista previa podés visitar mi proyecto
-                          en línea.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </section>
-          <section id="contacto" class="my-5">
-            <h2 class="texto-borde-degradado">Contacto</h2>
-            <div class="container">
-              <div class="row justify-content-end">
-                <div class="col-12 col-lg-4 py-3">
-                  <i class="fas fa-phone blanco fa-2x"></i>
-                  <p class="contacto">+54 297 4096 750</p>
-                </div>
-                <div class="col-12 col-lg-6 py-3">
-                  <i class="far fa-envelope blanco fa-2x"></i>
-                  <p class="contacto">lucialarreta07@gmail.com</p>
-                </div>
-
-                <div class="col-12 col-lg-4 py-3">
-                  <i class="fab fa-github blanco fa-2x"></i>
-                  <p class="contacto">https://github.com/LuLarreta</p>
-                </div>
-                <div class="col-12 col-lg-6 py-3">
-                  <i class="fab fa-linkedin blanco fa-2x"></i>
-                  <p class="contacto">
-                    www.linkedin.com/in/lucia-larreta-full-stack-developer
+                <div class="col-12 col-md-6">
+                  <p class="p-2">
+                    Plantopia es una aplicación móvil en la que los usuarios pueden registrar sus campos y seguir sus
+                    cosechas en tiempo real.
+                    Esta aplicación está desarrollada principalmente en Vue, aunque también utiliza React y Node.
+                    Además, se realizó la integración con la librería de Google Maps.
+                  </p>
+                  <p class="p-2">
+                    Presionando la vista previa podés visitar mi proyecto en
+                    línea.
                   </p>
                 </div>
               </div>
             </div>
-          </section>
+            <div class="proyectos">
+              <h3>Planner Semanal y Mensual</h3>
+              <div class="row align-items-center flex-row-reverse">
+                <div class="col-12 col-md-6 ">
+                  <a href="https://planner-organizador.vercel.app/" target="_blank">
+                    <img src="src/planner.png" alt="Vista de App de Planner" class="img-fluid" /></a>
+                </div>
+                <div class="col-12 col-md-6">
+                  <p>
+                    Mi Mejor Planner es un sitio creado con Vue.cli +
+                    Vuetify. Posee acciones CRUD las cuales impactan en el
+                    Local Storage, las cuales se guardan en la sesión. El
+                    usuario puede elegir iconos, seleccionar día de la
+                    semana o fecha y mes según corresponda y escribir la
+                    descripción de su tarea, recordatorio o pendiente.
+                    Luego tiene una vista donde se muestran las tareas
+                    semanales y una en donde se muestran las tareas
+                    anuales. Ambas se peden tachar y dar como completadas.
+                  </p>
+                  <p>
+                    Presionando la vista previa podés visitar mi proyecto
+                    en línea.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
+      <section id="contacto" class="mt-5">
+        <h2>Contacto</h2>
+        <div class="container">
+          <div class="container-fluid">
+            <div class="row justify-content-end">
+              <div class="col-12 col-lg-4 py-3">
+                <i class="fas fa-phone fa-2x"></i>
+                <p>+54 297 4096 750</p>
+              </div>
+              <div class="col-12 col-lg-6 py-3">
+                <i class="far fa-envelope fa-2x"></i>
+                <p>lucialarreta07@gmail.com</p>
+              </div>
+              <div class="col-12 col-lg-4 py-3">
+                <i class="fab fa-github fa-2x"></i>
+                <p>https://github.com/LuLarreta</p>
+              </div>
+              <div class="col-12 col-lg-6 py-3">
+                <i class="fab fa-linkedin fa-2x"></i>
+                <p>
+                  www.linkedin.com/in/lucia-larreta-full-stack-developer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
 </html>
